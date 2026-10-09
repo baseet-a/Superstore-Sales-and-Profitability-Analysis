@@ -12,7 +12,7 @@ These findings highlight the importance of evaluating **profitability alongside 
 
 ## Interactive Dashboard
 
-![Interactive Dashboard](Superstore-Sales-and-Profitability-Analysis/Interactive%20Dashboard/Interactive%20Dashboard.gif)
+![Interactive Dashboard](Superstore-Sales-and-Profitability-Analysis/Interactive%20Dashboard/Recording%202026-10-10%20011735.gif)
 
 ## Business Objective
 
@@ -32,7 +32,9 @@ The analysis followed a structured end-to-end workflow:
 
 ## Tools & Skills
 
-**Excel:** Power Query , Pivot Tables, Pivot Charts, Slicers, Conditional Formatting, Calculated Metrics, Dashboard Design
+**Excel:** Power Query, Pivot Tables, Conditional Formatting
+
+**Power BI:** Power Query, Charts, Slicers, Dashboard Design, Calculated Metrics
 
 **Data Analysis:** Exploratory Data Analysis, Descriptive Analysis, Trend Analysis, Categorical Analysis, Relationship Analysis, and Profitability Analysis
 
