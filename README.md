@@ -1,89 +1,79 @@
 # Superstore Sales and Profitability Analysis
 
-**An end-to-end Excel analysis of sales, profitability, and business performance**
+**An end-to-end Excel and Power BI analysis of sales, profitability, and business performance**
 
 ## Executive Summary
 
-The analysis shows that strong sales performance does not always translate into proportional profitability. Across the 2014–2017 period, the dataset generated approximately **$2.30M in sales, $286.40K in profit, and 37,873 units sold**. Sales increased to their highest level in 2017, but profit margin was lower than in 2015 and 2016.
-
-The analysis identified several areas that help explain these patterns. The **2015 sales decline was concentrated in specific periods and product areas**, particularly Technology and Office Supplies during March and September. **Higher discounts were strongly associated with weaker profit margins**, with the relationship becoming particularly pronounced at discounts of **20% and above**. Furniture also stood out as a high-sales, low-profitability category, with an overall **2.49% profit margin**, while Tables and Bookcases generated negative profitability.
-
-These findings highlight the importance of evaluating **profitability alongside sales performance**, particularly when analyzing discounting, product categories, and periods of changing performance.
+This project analyzes sales and profitability patterns across products, categories, segments, and discount levels from 2014 to 2017 using **Excel and Power BI**. The analysis identified a concentrated sales decline in 2015, weaker profitability despite record sales in 2017, and a strong negative association between higher discounts and profit margins. Furniture also stood out as a high-sales, low-profitability category, with **Tables and Bookcases** showing negative profitability. Overall, the findings highlight the importance of evaluating **profitability alongside sales performance**, particularly when assessing discounting and product-level performance.
 
 ## Interactive Dashboard
+
+The Power BI dashboard provides an interactive view of sales and profitability performance across the analyzed period, with filters for key business dimensions.
 
 ![Interactive Dashboard](Superstore-Sales-and-Profitability-Analysis/Interactive%20Dashboard/Recording%202026-10-10%20011735.gif)
 
 ## Business Objective
 
-The objective of this project is to analyze sales and profit patterns across products, customer segments, geographic regions, and discounts, identify areas of strong and weak performance, and investigate factors within the available data associated with profitability.
+The objective of this project is to analyze **sales and profitability performance** across products, categories, customer segments, and discount levels, and investigate patterns and relationships associated with changes in sales and profitability.
 
-Because no additional business documentation accompanies the dataset, the analysis is limited to questions and conclusions that can be supported by the available data.
+### Key Business Questions
+
+1. **What drove the 2015 sales decline?**
+2. **Why did profit margin decline in 2017 despite higher sales?**
+3. **How did discount levels relate to profit and profit margin?**
+4. **Which categories and sub-categories generated strong sales but weak profitability?**
 
 ## Methodology
 
-The analysis followed a structured end-to-end workflow:
+1. **Data Quality & Preparation**  
+   Assessed data quality, handled missing values, corrected data types and formats, and prepared the dataset for analysis.
 
-1. Data Understanding & Quality Assessment
-2. Data Cleaning & Preprocessing
-3. Exploratory Data Analysis
-4. Business Analysis & Investigations
-5. Dashboard & Final Summary
+2. **Exploratory & Trend Analysis**  
+   Analyzed sales, profit, quantity, and their patterns across years, quarters, months, categories, sub-categories, and customer segments.
+
+3. **Business Analysis**  
+   Investigated the key business questions by examining sales trends, profitability, discount levels, product performance, and their relationships.
+
+4. **Calculated Metrics & Dashboard Development**  
+   Created additional calculated columns and metrics, including revenue-related percentages, and developed an interactive Power BI dashboard to communicate the key findings.
 
 ## Tools & Skills
 
-**Excel:** Power Query, Pivot Tables, Conditional Formatting
+**Excel:** Data Cleaning, Data Preparation, Pivot Tables, Calculated Columns, Data Analysis
 
-**Power BI:** Power Query, Charts, Slicers, Dashboard Design, Calculated Metrics
+**Power BI:** Data Visualization, Interactive Dashboards, Slicers, Calculated Metrics
 
-**Data Analysis:** Exploratory Data Analysis, Descriptive Analysis, Trend Analysis, Categorical Analysis, Relationship Analysis, and Profitability Analysis
-
-## Business Questions
-
-### Main Investigations
-
-1. **What factors are associated with the sales decline in 2015?**
-2. **What factors are associated with the lower profit margin in 2017?**
-3. **How is discount associated with profit and profit margin?**
-4. **Which categories and sub-categories show strong sales but weak profitability?**
-
-### Supporting Analysis
-
-1. **Which sub-categories generate the most sales?**
-2. **What are the top 10 states by sales and profit?**
-3. **Which segments generate the most sales and profit?**
+**Analytical Skills:** Exploratory Data Analysis, Trend Analysis, Profitability Analysis, Categorical Analysis, Relationship Analysis, Business Analysis
 
 ## Results & Business Insights
 
 ### 1. 2015 Sales Decline
 
-The 2015 sales decline was concentrated in **Q1 and Q3**, with March and September showing lower sales than the same months in 2014, while total profit and quantity continued to increase. The March decline was primarily associated with **Technology**, particularly **Machines**, whose sales fell from **25,314 in March 2014 to zero in March 2015**. The September decline was associated with **Technology and Office Supplies**, with Machines falling from **22,420 to 629** and Binders from **12,743 to 2,863**. At the segment level, the March decline was associated with lower Home Office sales, while the September decline was associated with lower Consumer sales.
+Sales declined in **Q1 and Q3 of 2015**, with the largest changes concentrated in March and September. In March, the decline was primarily associated with **Technology**, particularly Machines, whose sales fell from **$25,314 in March 2014 to $0 in March 2015**. In September, the decline was associated with **Technology and Office Supplies**, including a sharp drop in Machines and Binders sales.
 
-This indicates that the 2015 sales decline was **concentrated in specific periods and product areas rather than reflecting a broad decline in business activity**. Changes in the sales mix or transaction economics of these products may therefore warrant further investigation.
+Overall, the 2015 decline was **concentrated in specific periods and product areas rather than reflecting a broad decline in sales activity**.
 
 ### 2. Lower Profit Margin in 2017
 
-Although 2017 generated the highest annual sales, overall profit declined in **Q2 and Q4**, with Q2 falling from **$16,390 to $15,499 (-5.43%)** and Q4 from **$38,139 to $27,448 (-28.02%)** compared with 2016. The lower profit margin was associated with **weaker profitability in Furniture, particularly Tables and Bookcases**, with the issue also appearing across specific segments. Higher discount levels were also associated with lower average profit margins, particularly from **20% and above**.
+Although **2017 generated the highest annual sales**, profitability weakened in Q2 and Q4 compared with 2016. Profit declined by **5.43% in Q2** ($16,390 to $15,499) and **28.02% in Q4** ($38,139 to $27,448). The weaker profitability was particularly associated with **Furniture**, including negative profitability in Tables and Bookcases.
 
-The results show that **higher sales did not translate proportionally into profitability in 2017**, highlighting the importance of evaluating margin alongside top-line growth.
+Overall, the results show that **higher sales did not translate proportionally into higher profit in 2017**, highlighting the importance of evaluating profit margin alongside sales growth.
 
 ### 3. Discount & Profitability
 
-Higher discount levels were associated with lower profitability, with the relationship substantially stronger for **profit margin** than for absolute profit. The trendline showed an **R² of 0.7473 for profit margin**, compared with **0.0482 for profit**, while the discount-level analysis showed declining average profit and profit margin at higher discount levels, particularly from **20% and above**.
+Higher discount levels were associated with **lower profit and profit margins**, with the relationship substantially stronger for profit margin. The trendline showed an **R² of 0.7473 for profit margin**, compared with **0.0482 for profit**. Average profit and profit margin also declined at higher discount levels, with the negative profitability pattern becoming particularly pronounced at **20% discount and above**.
 
-This indicates that discounting is **more closely associated with the profitability of sales than with the absolute amount of profit generated**, making higher-discount transactions an important area for profitability monitoring.
+This suggests that discounting was **more closely associated with profitability than with absolute profit**, making higher-discount transactions an important area for profitability monitoring.
 
 ### 4. Strong Sales but Weak Profitability
 
-Furniture generated substantial sales but only a **2.49% overall profit margin**, substantially below the other categories. Within Furniture, **Tables and Bookcases** generated negative overall profitability, with their average profit and profit margin declining as discounts increased and becoming negative at **20% discount and above**. All customer segments were negatively affected at higher discount levels, while **Consumer and Corporate showed the most pronounced negative values in the segment analysis**.
+**Furniture generated $741,999 in sales** but had an overall profit margin of only **2.49%**, substantially below the other categories. Within Furniture, **Tables and Bookcases generated negative overall profitability**, with profitability weakening further at higher discount levels.
 
-The findings demonstrate that **strong sales do not necessarily indicate strong financial performance**. In this dataset, the sales-profit gap is concentrated in specific sub-categories and higher-discount transactions, showing why profitability should be evaluated alongside sales when assessing business performance.
+The findings highlight a clear **sales-profitability gap within specific sub-categories**, showing that high sales volume alone does not necessarily indicate strong financial performance.
 
 ## Next Steps
 
-The analysis highlighted several areas that could be explored further:
-
-- **Recurring monthly declines:** Investigate recurring monthly sales and profit declines to determine whether they are consistently associated with specific categories, sub-categories, segments, or discount levels.
-- **Product-level profitability:** Drill down from Tables and Bookcases to individual products to identify which products contribute most to their negative profitability.
-- **Geographic profitability:** Examine sales and profitability across states and regions to identify areas where strong sales are accompanied by relatively weak profitability.
-- **Sales growth vs. profitability:** Further investigate situations where sales increase without a proportional increase in profit to better understand the factors associated with the gap.
+- **Recurring Performance Patterns:** Investigate recurring monthly declines to determine whether they are consistently associated with specific categories, sub-categories, segments, or discount levels.
+- **Product-Level Profitability:** Drill down from Tables and Bookcases to individual products to identify the products contributing most to negative profitability.
+- **Geographic Profitability:** Analyze profitability across states and regions to identify areas where strong sales are accompanied by relatively weak profitability.
+- **Sales Growth vs. Profitability:** Investigate periods and product areas where sales increased without a proportional increase in profit to better understand the sales-profitability gap.
